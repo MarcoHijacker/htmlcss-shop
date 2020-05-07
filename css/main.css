@@ -1,0 +1,53 @@
+/* CSS del template di eShop */
+
+/* Sulla prima riga, per lasciare lo spazio in basso, ho preferito usare il magin */
+.row1 {
+  margin-bottom: 30px;
+}
+/* Classe per il singolo prodotto con il relative attivo */
+.prod {
+  display: inline-block;
+  position: relative;
+}
+/* Classe per lo sconto del 30% (verde) */
+.highdisc {
+  background-color: #27d13a;
+  width: 35px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 1px #666;
+}
+/* Classe per lo sconto del 5% (rosso) */
+.lowdisc {
+  background-color: red;
+  width: 35px;
+  height: 20px;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 1px #666;
+}
+/* Classe per il cuore in absolute position */
+.heart {
+  color: red;
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
+}
+/* Selettore avanzato per la classe cuore in ogni classe prod */
+.prod .heart {
+  display: none;
+}
+/* Selettore avanzato come sopra, ma con l'hover per far comparire il cuore */
+.prod:hover .heart {
+  display: block;
+}
