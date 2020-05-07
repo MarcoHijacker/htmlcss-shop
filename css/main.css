@@ -1,7 +1,11 @@
 /* CSS del template di eShop */
 
+/* Classe delle righe per essere centrate sul body */
+.row {
+  text-align: center;
+}
 /* Sulla prima riga, per lasciare lo spazio in basso, ho preferito usare il magin */
-.row1 {
+.first {
   margin-bottom: 30px;
 }
 /* Classe per il singolo prodotto con il relative attivo */
