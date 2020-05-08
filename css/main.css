@@ -44,7 +44,8 @@
 .heart {
   color: red;
   position: absolute;
-  left: 50%;
+  width: 100%;
+  left: 0;
   bottom: 5%;
 }
 /* Selettore avanzato per la classe cuore in ogni classe prod */
